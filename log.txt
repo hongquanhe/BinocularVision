@@ -1,0 +1,4 @@
+pip's dependency resolver does not currently take into account all the packages that are installed. This beha viour is the source of the following dependency conflicts.
+aiohttp 3.6.3 requires yarl<1.6.0,>=1.0, but you have yarl 1.6.2 which is incompatible.
+
+https://blog.csdn.net/weixin_39735688/article/details/121390085?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&utm_relevant_index=1
