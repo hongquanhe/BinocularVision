@@ -1,0 +1,15 @@
+{
+    "use_camera": true,
+    "weights": "D:/Project/yolov5-master/models/best_defect.pt",
+    "device": "cpu",
+    "img_size": "640",
+    "conf_thresh": 0.3,
+    "iou_thresh": 0.4,
+    "max_det": 10,
+    "agnostic": false,
+    "augment": false,
+    "half": false,
+    "dnn": true,
+    "video": "D:/Project/yolov5-master/img/video/detection.mp4",
+    "record": false
+}
